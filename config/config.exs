@@ -23,7 +23,8 @@ config :gigalixir_getting_started, GigalixirGettingStartedWeb.Endpoint,
     layout: false
   ],
   pubsub_server: GigalixirGettingStarted.PubSub,
-  live_view: [signing_salt: "58UDmctC"]
+  live_view: [signing_salt: "58UDmctC"],
+  server: true
 
 # Configures the mailer
 #
